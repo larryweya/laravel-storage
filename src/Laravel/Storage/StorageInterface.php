@@ -17,7 +17,7 @@ interface StorageInterface {
      * @param  string  $path
      * @return string
      */
-    public function getURL($path);
+    public function url($path);
 
     /**
      * Delete the file at path
